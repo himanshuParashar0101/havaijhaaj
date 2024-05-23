@@ -1,34 +1,22 @@
+// FlightRoute.js
+import React, { useContext } from "react";
+
 import ArgonBox from "components/ArgonBox";
 import ArgonTypography from "components/ArgonTypography";
 import ArgonInput from "components/ArgonInput";
 import ArgonButton from "components/ArgonButton";
-import React, { useState } from "react";
+import FlightRouteContext from "FlightRouteContext";
 
 function FlightRoute() {
-  const [formData, setFormData] = useState({
-    departure: "",
-    destination: "",
-  });
-
-  const [dep, setDep] = useState("");
-  const [dis, setDis] = useState("");
-  const [arr, setArr] = useState([]);
-
-  const apiKey = "I08guMHeESwY4pAQEJ0YyPEdk4e6WydeYBcsH7Ly";
-  const apiUrl = "https://api.flightplandatabase.com/search/plans";
+  const { dep, setDep, dis, setDis } = useContext(FlightRouteContext);
 
   const handleSubmit = () => {
-    setArr([dep, dis]);
+    console.log("Submitting: ", { dep, dis });
   };
 
   const handleClear = () => {
-    setFormData({
-      departure: "",
-      destination: "",
-    });
     setDep("");
     setDis("");
-    setArr([]);
   };
 
   return (
@@ -37,10 +25,7 @@ function FlightRoute() {
         Route Generator
       </ArgonTypography>
       <ArgonTypography variant="body2" mb={3}>
-        Enter departure and destination ICAO codes to compute a new flight plan. This route
-        generator attempts to find an optimal route through global airways and intersections. When
-        crossing the Atlantic or the Pacific, the current oceanic tracks can optionally also be
-        considered. Generation can take up to 2 minutes, so please be patient.
+        Enter departure and destination ICAO codes to compute a new flight plan. This route generator attempts to find an optimal route through global airways and intersections. When crossing the Atlantic or the Pacific, the current oceanic tracks can optionally also be considered. Generation can take up to 2 minutes, so please be patient.
       </ArgonTypography>
       <ArgonBox
         display="flex"

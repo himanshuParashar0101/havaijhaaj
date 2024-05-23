@@ -1,4 +1,5 @@
-import React from "react";
+// Billing.js
+import React, { useContext } from "react";
 import FlightMap from "./components/FlightMap";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
@@ -6,12 +7,13 @@ import ArgonBox from "components/ArgonBox";
 import { Card } from "@mui/material";
 import Footer from "examples/Footer";
 import ArgonTypography from "components/ArgonTypography";
+import FlightRouteContext from "FlightRouteContext";
 
 const Billing = () => {
-  const sourceIcao = "VAAH"; // Example source ICAO
-  const destinationIcao = "VAAU"; // Example destination ICAO
+  const { dep, dis } = useContext(FlightRouteContext);
   const apiKey = "HHATcc52xUMzxqvX46Cwyf1mKfJ91nclEzOUtzfc";
   const apiUrl = "https://api.flightplandatabase.com/search/plans";
+
   return (
     <DashboardLayout>
       <DashboardNavbar />
@@ -22,8 +24,8 @@ const Billing = () => {
           </ArgonBox>
           <ArgonBox>
             <FlightMap
-              sourceIcao={sourceIcao}
-              destinationIcao={destinationIcao}
+              sourceIcao={dep}
+              destinationIcao={dis}
               apiKey={apiKey}
               apiUrl={apiUrl}
             />
