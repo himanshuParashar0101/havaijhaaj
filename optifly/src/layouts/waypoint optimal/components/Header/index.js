@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 
 // @mui material components
 import Card from "@mui/material/Card";
@@ -34,11 +34,14 @@ import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import breakpoints from "assets/theme/base/breakpoints";
 
 // Images
-import burceMars from "assets/images/bruce-mars.jpg";
+
+import WeatherMap2 from "layouts/profile/data/WaypointOptimalRoute";
+import FlightRouteContext from "FlightRouteContext";
 
 function Header() {
   const [tabsOrientation, setTabsOrientation] = useState("horizontal");
   const [tabValue, setTabValue] = useState(0);
+  const { dep, dis } = useContext(FlightRouteContext);
 
   useEffect(() => {
     // A function that sets the orientation state of the tabs.
@@ -73,57 +76,10 @@ function Header() {
           boxShadow: ({ boxShadows: { md } }) => md,
         }}
       >
-        <Grid container spacing={3} alignItems="center">
-          <Grid item>
-            <ArgonAvatar
-              src={burceMars}
-              alt="profile-image"
-              variant="rounded"
-              size="xl"
-              shadow="sm"
-            />
-          </Grid>
-          <Grid item>
-            <ArgonBox height="100%" mt={0.5} lineHeight={1}>
-              <ArgonTypography variant="h5" fontWeight="medium">
-                Alex Thompson
-              </ArgonTypography>
-              <ArgonTypography variant="button" color="text" fontWeight="medium">
-                CEO / Co-Founder
-              </ArgonTypography>
-            </ArgonBox>
-          </Grid>
-          <Grid item xs={12} md={6} lg={4} sx={{ ml: "auto" }}>
-            <AppBar position="static">
-              <Tabs orientation={tabsOrientation} value={tabValue} onChange={handleSetTabValue}>
-                <Tab
-                  label="App"
-                  icon={
-                    <i className="ni ni-app" style={{ marginTop: "6px", marginRight: "8px" }} />
-                  }
-                />
-                <Tab
-                  label="Message"
-                  icon={
-                    <i
-                      className="ni ni-email-83"
-                      style={{ marginTop: "6px", marginRight: "8px" }}
-                    />
-                  }
-                />
-                <Tab
-                  label="Settings"
-                  icon={
-                    <i
-                      className="ni ni-settings-gear-65"
-                      style={{ marginTop: "6px", marginRight: "8px" }}
-                    />
-                  }
-                />
-              </Tabs>
-            </AppBar>
-          </Grid>
-        </Grid>
+        <ArgonBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
+            <ArgonTypography variant="h4">Waypoint optimal route</ArgonTypography>
+          </ArgonBox>
+       <WeatherMap2 sourceIata={dep} destinationIata={dis}/> 
       </Card>
     </ArgonBox>
   );

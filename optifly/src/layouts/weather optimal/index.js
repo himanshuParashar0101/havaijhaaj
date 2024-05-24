@@ -14,6 +14,7 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
+import React, { useContext } from "react";
 import Card from "@mui/material/Card";
 
 // Argon Dashboard 2 MUI components
@@ -30,10 +31,12 @@ import Table from "examples/Tables/Table";
 import authorsTableData from "layouts/tables/data/authorsTableData";
 import projectsTableData from "layouts/tables/data/projectsTableData";
 import WeatherMap from "./data/WeatherMap";
+import FlightRouteContext from "FlightRouteContext";
 
 function Tables() {
   const { columns, rows } = authorsTableData;
   const { columns: prCols, rows: prRows } = projectsTableData;
+  const { dep, dis } = useContext(FlightRouteContext);
 
   return (
     <DashboardLayout>
@@ -42,7 +45,7 @@ function Tables() {
         <ArgonBox mb={3}>
           <Card>
             <ArgonBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
-              <ArgonTypography variant="h6">Authors table</ArgonTypography>
+              <ArgonTypography variant="h4">Weather optimal route</ArgonTypography>
             </ArgonBox>
             <ArgonBox
               sx={{
@@ -54,7 +57,7 @@ function Tables() {
                 },
               }}
             >
-              <WeatherMap sourceIata="VABB" destinationIata="VOHS" />
+              <WeatherMap sourceIata={dep} destinationIata={dis}/>
             </ArgonBox>
           </Card>
         </ArgonBox>

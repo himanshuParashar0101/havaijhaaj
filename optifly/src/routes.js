@@ -74,9 +74,9 @@ const routes = [
   },
   {
     type: "route",
-    name: "Profile",
+    name: "Waypoint Optimal Route",
     key: "profile",
-    route: "/profile",
+    route: "/waypoint-optimal-route",
     icon: <ArgonBox component="i" color="dark" fontSize="14px" className="ni ni-single-02" />,
     component: <Profile />,
   },
