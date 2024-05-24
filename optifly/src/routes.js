@@ -35,15 +35,15 @@ Coded by www.creative-tim.com
 
 // Argon Dashboard 2 MUI layouts
 import Dashboard from "layouts/dashboard";
-import Tables from "layouts/tables";
 import Billing from "layouts/optimal-way";
 import RTL from "layouts/rtl";
-import Profile from "layouts/profile";
+import Profile from "layouts/waypoint-optimal";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 
 // Argon Dashboard 2 MUI components
 import ArgonBox from "components/ArgonBox";
+import Tables from "layouts/weather optimal";
 
 const routes = [
   {

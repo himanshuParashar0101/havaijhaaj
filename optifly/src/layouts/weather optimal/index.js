@@ -25,13 +25,15 @@ import ArgonTypography from "components/ArgonTypography";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
-import Table from "examples/Tables/Table";
+
 
 // Data
-import authorsTableData from "layouts/tables/data/authorsTableData";
-import projectsTableData from "layouts/tables/data/projectsTableData";
 import WeatherMap from "./data/WeatherMap";
 import FlightRouteContext from "FlightRouteContext";
+import Table from "examples/Tables/Table";
+import projectsTableData from "./data/projectsTableData";
+import authorsTableData from "./data/authorsTableData";
+
 
 function Tables() {
   const { columns, rows } = authorsTableData;

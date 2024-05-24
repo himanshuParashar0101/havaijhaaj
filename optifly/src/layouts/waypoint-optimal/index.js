@@ -35,11 +35,11 @@ import DefaultProjectCard from "examples/Cards/ProjectCards/DefaultProjectCard";
 import PlaceholderCard from "examples/Cards/PlaceholderCard";
 
 // Overview page components
-import Header from "layouts/profile/components/Header";
-import PlatformSettings from "layouts/profile/components/PlatformSettings";
+import Header from "layouts/waypoint-optimal/components/Header";
+import PlatformSettings from "layouts/waypoint-optimal/components/PlatformSettings";
 
 // Data
-import profilesListData from "layouts/profile/data/profilesListData";
+import profilesListData from "layouts/waypoint-optimal/data/profilesListData";
 
 // Images
 import homeDecor1 from "assets/images/home-decor-1.jpg";
