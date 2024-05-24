@@ -106,11 +106,11 @@ const WeatherMap = ({ sourceIata, destinationIata, pointC, pointD }) => {
     const falseWaypoints = waypoints.filter(wp => !wp.flag);
 
     setPolylinePositions(
-      sortedTrueWaypoints.map(wp => [wp.lat, wp.lon])
+      sortedTrueWaypoints.map(wp => [wp.lat, wp.lon, wp.wayPointName])
     );
 
     setFalseWaypoints(
-      falseWaypoints.map(wp => [wp.lat, wp.lon])
+      falseWaypoints.map(wp => [wp.lat, wp.lon, wp.wayPointName])
     );
   };
 
@@ -129,12 +129,12 @@ const WeatherMap = ({ sourceIata, destinationIata, pointC, pointD }) => {
       )}
       {polylinePositions.map((position, index) => (
         <Marker key={`true-${index}`} position={position}>
-          <Popup>Waypoint {index + 1}</Popup>
+          <Popup>{position[2]}</Popup>
         </Marker>
       ))}
       {falseWaypoints.map((position, index) => (
         <Marker key={`false-${index}`} position={position} icon={icon} >
-          <Popup>False Waypoint {index + 1}</Popup>
+          <Popup>{position[2]}</Popup>
         </Marker>
       ))}
     </MapContainer>

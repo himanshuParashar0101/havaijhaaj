@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { MapContainer, TileLayer, Polyline, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -58,7 +59,7 @@ const WeatherMap = ({ sourceIata, destinationIata, pointC, pointD }) => {
     });
 
     setPolylinePositions(
-      sortedWaypoints.map(wp => [wp.lat, wp.lon])
+      sortedWaypoints.map(wp => [wp.lat, wp.lon, wp.wayPointName])
     );
   };
 
@@ -77,11 +78,18 @@ const WeatherMap = ({ sourceIata, destinationIata, pointC, pointD }) => {
       )}
       {polylinePositions.map((position, index) => (
         <Marker key={index} position={position}>
-          <Popup>Waypoint {index + 1}</Popup>
+          <Popup>{position[2]}</Popup>
         </Marker>
       ))}
     </MapContainer>
   );
+};
+
+WeatherMap.propTypes = {
+  sourceIata: PropTypes.string.isRequired,
+  destinationIata: PropTypes.string.isRequired,
+  pointC: PropTypes.object.isRequired,
+  pointD: PropTypes.object.isRequired,
 };
 
 export default WeatherMap;

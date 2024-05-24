@@ -75,7 +75,6 @@ function Tables() {
             <Grid container spacing={3} p={3}>
               <Grid item xs={12} lg={7}>
               <iframe src="https://weatherchartreturns.netlify.app/" title="description" height={350} width={653} >
-  
               </iframe>
               </Grid>
               <Grid item xs={12} lg={5}>

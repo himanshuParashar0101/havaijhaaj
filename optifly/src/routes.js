@@ -66,6 +66,14 @@ const routes = [
   },
   {
     type: "route",
+    name: "Waypoint Optimal Route",
+    key: "profile",
+    route: "/waypoint-optimal-route",
+    icon: <ArgonBox component="i" color="dark" fontSize="14px" className="ni ni-single-02" />,
+    component: <Profile />,
+  },
+  {
+    type: "route",
     name: "Weather Optimal Route",
     key: "tables",
     route: "/weather-optimal-route",
@@ -73,14 +81,6 @@ const routes = [
       <ArgonBox component="i" color="warning" fontSize="14px" className="ni ni-send" />
     ),
     component: <Tables />,
-  },
-  {
-    type: "route",
-    name: "Waypoint Optimal Route",
-    key: "profile",
-    route: "/waypoint-optimal-route",
-    icon: <ArgonBox component="i" color="dark" fontSize="14px" className="ni ni-single-02" />,
-    component: <Profile />,
   },
   {
     type: "route",
