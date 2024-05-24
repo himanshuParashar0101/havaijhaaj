@@ -29,6 +29,7 @@ import Table from "examples/Tables/Table";
 // Data
 import authorsTableData from "layouts/tables/data/authorsTableData";
 import projectsTableData from "layouts/tables/data/projectsTableData";
+import WeatherMap from "./data/WeatherMap";
 
 function Tables() {
   const { columns, rows } = authorsTableData;
@@ -53,7 +54,7 @@ function Tables() {
                 },
               }}
             >
-              <Table columns={columns} rows={rows} />
+              <WeatherMap sourceIata="VABB" destinationIata="VOHS" />
             </ArgonBox>
           </Card>
         </ArgonBox>

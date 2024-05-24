@@ -37,8 +37,8 @@ function CoverLayout({ title, description, image, imgPosition, button, children 
         <DefaultNavbar
           action={{
             type: "external",
-            route: "https://creative-tim.com/product/argon-dashboard-material-ui",
-            label: "Free Download",
+            route: "https://www.hackerearth.com/challenges/hackathon/airbus-aerothon-6-finale/",
+            label: "Team - Creative Minds",
             ...button,
           }}
           transparent

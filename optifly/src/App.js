@@ -15,8 +15,8 @@ import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 import routes from "routes";
 import { useArgonController, setMiniSidenav, setOpenConfigurator } from "context";
-import brand from "assets/images/logo-ct.png";
-import brandDark from "assets/images/logo-ct-dark.png";
+import brand from "assets/images/aircraft-white.png";
+import brandDark from "assets/images/aircraft.png";
 import "assets/css/nucleo-icons.css";
 import "assets/css/nucleo-svg.css";
 

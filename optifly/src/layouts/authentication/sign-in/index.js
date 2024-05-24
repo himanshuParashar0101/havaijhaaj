@@ -15,9 +15,11 @@ import ArgonButton from "components/ArgonButton";
 // Authentication layout components
 import IllustrationLayout from "layouts/authentication/components/IllustrationLayout";
 
+
+
 // Image
-const bgImage =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signin-ill.jpg";
+import bgImage from "assets/images/Airbus.png";
+  
 
 function Illustration() {
   const [rememberMe, setRememberMe] = useState(false);
@@ -30,9 +32,9 @@ function Illustration() {
       description="Enter your email and password to sign in"
       illustration={{
         image: bgImage,
-        title: '"Attention is the new currency"',
+        title: '"Optimized Safe Efficient Flight Navigation"',
         description:
-          "The more effortless the writing looks, the more effort the writer actually put into the process.",
+          "Attention to detail in flight navigation ensures every journey is as safe as it is efficient.",
       }}
     >
       <ArgonBox component="form" role="form">

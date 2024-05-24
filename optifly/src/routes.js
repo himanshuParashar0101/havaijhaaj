@@ -64,13 +64,21 @@ const routes = [
   },
   {
     type: "route",
-    name: "Way Point",
+    name: "Weather Optimal Route",
     key: "tables",
-    route: "/way-point",
+    route: "/weather-optimal-route",
     icon: (
       <ArgonBox component="i" color="warning" fontSize="14px" className="ni ni-send" />
     ),
     component: <Tables />,
+  },
+  {
+    type: "route",
+    name: "Profile",
+    key: "profile",
+    route: "/profile",
+    icon: <ArgonBox component="i" color="dark" fontSize="14px" className="ni ni-single-02" />,
+    component: <Profile />,
   },
   {
     type: "route",
@@ -81,14 +89,6 @@ const routes = [
     component: <RTL />,
   },
   { type: "title", title: "Account Pages", key: "account-pages" },
-  {
-    type: "route",
-    name: "Profile",
-    key: "profile",
-    route: "/profile",
-    icon: <ArgonBox component="i" color="dark" fontSize="14px" className="ni ni-single-02" />,
-    component: <Profile />,
-  },
   {
     type: "route",
     name: "Sign In",

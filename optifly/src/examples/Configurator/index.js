@@ -73,7 +73,7 @@ function Configurator() {
         px={3}
       >
         <ArgonBox>
-          <ArgonTypography variant="h5">Argon Configurator</ArgonTypography>
+          <ArgonTypography variant="h5">Opti-Fly Configurator</ArgonTypography>
           <ArgonTypography variant="body2" color="text">
             See our dashboard options.
           </ArgonTypography>
@@ -188,30 +188,7 @@ function Configurator() {
         </ArgonBox>
 
         <ArgonBox mt={5} mb={2}>
-          <ArgonBox mb={2}>
-            <ArgonButton
-              component={Link}
-              href="https://www.creative-tim.com/product/argon-dashboard-pro-material-ui"
-              target="_blank"
-              rel="noreferrer"
-              color="info"
-              fullWidth
-            >
-              Buy Now
-            </ArgonButton>
-          </ArgonBox>
-          <ArgonBox mb={2}>
-            <ArgonButton
-              component={Link}
-              href="https://www.creative-tim.com/product/argon-dashboard-material-ui"
-              target="_blank"
-              rel="noreferrer"
-              color="dark"
-              fullWidth
-            >
-              Free Download
-            </ArgonButton>
-          </ArgonBox>
+    
           <ArgonButton
             component={Link}
             href="https://www.creative-tim.com/learning-lab/react/quick-start/argon-dashboard/"
@@ -223,17 +200,6 @@ function Configurator() {
           >
             View Documentation
           </ArgonButton>
-        </ArgonBox>
-        <ArgonBox display="flex" justifyContent="center">
-          <GitHubButton
-            href="https://github.com/creativetimofficial/argon-dashboard-material-ui"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star creativetimofficial/argon-dashboard-material-uit on GitHub"
-          >
-            Star
-          </GitHubButton>
         </ArgonBox>
         <ArgonBox mt={3} textAlign="center">
           <ArgonBox mb={0.5}>

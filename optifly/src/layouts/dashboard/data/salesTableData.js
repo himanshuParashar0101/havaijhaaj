@@ -19,26 +19,35 @@ import DE from "assets/images/icons/flags/DE.png";
 import GB from "assets/images/icons/flags/GB.png";
 import BR from "assets/images/icons/flags/BR.png";
 
-const salesTableData = [
+const navigationTableData = [
   {
-    country: [US, "united state"],
-    sales: 2500,
-    value: "$230,900",
-    bounce: "29.9%",
+    country: [US, "united states"],
+    flights: 2500,
+    avgDelay: "30 mins",
+    riskAssessment: "29.9%",
+    weatherImpact: "15.0%"
   },
   {
     country: [DE, "germany"],
-    sales: "3.900",
-    value: "$440,000",
-    bounce: "40.22%",
+    flights: "3,900",
+    avgDelay: "40 mins",
+    riskAssessment: "40.22%",
+    weatherImpact: "20.5%"
   },
   {
     country: [GB, "great britain"],
-    sales: "1.400",
-    value: "$190,700",
-    bounce: "23.44%",
+    flights: "1,400",
+    avgDelay: "25 mins",
+    riskAssessment: "23.44%",
+    weatherImpact: "10.2%"
   },
-  { country: [BR, "brasil"], sales: 562, value: "$143,960", bounce: "32.14%" },
+  { 
+    country: [BR, "brazil"],
+    flights: 562, 
+    avgDelay: "35 mins", 
+    riskAssessment: "32.14%",
+    weatherImpact: "18.0%"
+  },
 ];
 
-export default salesTableData;
+export default navigationTableData;

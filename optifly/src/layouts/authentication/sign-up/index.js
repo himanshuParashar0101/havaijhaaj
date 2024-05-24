@@ -32,17 +32,16 @@ import Socials from "layouts/authentication/components/Socials";
 import Separator from "layouts/authentication/components/Separator";
 
 // Images
-const bgImage =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signup-cover.jpg";
+import bgImage from "assets/images/banner.jpg";
 
 function Cover() {
   return (
     <CoverLayout
       title="Welcome!"
-      description="Use these awesome forms to login or create new account in your project for free."
+      description="Login or create new account."
       image={bgImage}
       imgPosition="top"
-      button={{ color: "dark", variant: "gradient" }}
+      button={{ color: "light", variant: "gradient" }}
     >
       <Card>
         <ArgonBox p={3} mb={1} textAlign="center">

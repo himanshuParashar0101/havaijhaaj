@@ -135,7 +135,7 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
         </ArgonBox>
         <ArgonBox component={NavLink} to="/" display="flex" alignItems="center">
           {brand && (
-            <ArgonBox component="img" src={brand} alt="Argon Logo" width="2rem" mr={0.25} />
+            <ArgonBox component="img" src={brand} alt="Optifly Logo" width="2.5rem" mr={1} />
           )}
           <ArgonBox
             width={!brandName && "100%"}
@@ -144,7 +144,7 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
             <ArgonTypography
               component="h6"
               variant="button"
-              fontWeight="medium"
+              fontWeight="bold"
               color={darkSidenav ? "white" : "dark"}
             >
               {brandName}
