@@ -33,6 +33,9 @@ import FlightRouteContext from "FlightRouteContext";
 import Table from "examples/Tables/Table";
 import projectsTableData from "./data/projectsTableData";
 import authorsTableData from "./data/authorsTableData";
+import Slider from "layouts/dashboard/components/Slider";
+import WeatherChart from "./data/weatherchart2";
+import { Grid } from "@mui/material";
 
 
 function Tables() {
@@ -65,20 +68,22 @@ function Tables() {
         </ArgonBox>
         <Card>
           <ArgonBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
-            <ArgonTypography variant="h6">Projects table</ArgonTypography>
+            <ArgonTypography variant="h6">Weather Data Chart</ArgonTypography>
           </ArgonBox>
-          <ArgonBox
-            sx={{
-              "& .MuiTableRow-root:not(:last-child)": {
-                "& td": {
-                  borderBottom: ({ borders: { borderWidth, borderColor } }) =>
-                    `${borderWidth[1]} solid ${borderColor}`,
-                },
-              },
-            }}
-          >
-            <Table columns={prCols} rows={prRows} />
-          </ArgonBox>
+          <ArgonBox mb={3}>
+          <Card>
+            <Grid container spacing={3} p={3}>
+              <Grid item xs={12} lg={7}>
+              <iframe src="https://weatherchartreturns.netlify.app/" title="description" height={350} width={653} >
+  
+              </iframe>
+              </Grid>
+              <Grid item xs={12} lg={5}>
+                <Slider/>
+              </Grid>
+            </Grid>
+          </Card>
+        </ArgonBox>
         </Card>
       </ArgonBox>
       <Footer />

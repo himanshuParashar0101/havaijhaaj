@@ -44,6 +44,8 @@ import SignUp from "layouts/authentication/sign-up";
 // Argon Dashboard 2 MUI components
 import ArgonBox from "components/ArgonBox";
 import Tables from "layouts/weather optimal";
+import RedirectToDashboard from "layouts/rtl/RedirectToDashboard";
+ 
 
 const routes = [
   {
@@ -86,7 +88,15 @@ const routes = [
     key: "rtl",
     route: "/maintainence",
     icon: <ArgonBox component="i" color="error" fontSize="14px" className="ni ni-world-2" />,
-    component: <RTL />,
+    component: <RedirectToDashboard />,
+  },
+  {
+    type: "route",
+    name: "FMD",
+    key: "rtl",
+    route: "/maintainence",
+    icon: <ArgonBox component="i" color="error" fontSize="14px" className="ni ni-world-2" />,
+    component: <RedirectToDashboard />,
   },
   { type: "title", title: "Account Pages", key: "account-pages" },
   {
