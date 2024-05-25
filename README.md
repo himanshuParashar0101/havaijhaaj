@@ -143,7 +143,7 @@ WeatherChart Data
 
 **Tools Used--**
 
-Backend -  Java , SpringBoot, JPA, MySQL ,REST APIs ,Eclipse,XAMPP
+Backend -  Java , SpringBoot, JPA, MySQL ,REST APIs ,Junit(Unit Test Case),Eclipse,XAMPP
 
 UI - ReactJS ,VSCode
 
