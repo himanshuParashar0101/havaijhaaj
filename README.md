@@ -33,6 +33,14 @@ We have created three main dashboards for this problem statement-
 
 **I- Optimal Route Finding Based on Distance(Fuel optimisation) Weather Factors**
 
+Run Backend Steps:
+
+Start SpringBoot Server --
+1. git clone the repo 
+2. Download ecilpse and import as existing maven project
+3. run as java application in main file
+5. Test apis using postman
+
 SignUp Page
 
 ![Screenshot 2024-05-25 150516](https://github.com/himanshuParashar0101/havaijhaaj/assets/103347563/54094576-142d-4112-838f-a78332a13ea6)
