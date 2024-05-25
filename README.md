@@ -27,6 +27,7 @@ We have created three main dashboards for this problem statement-
 **I- Optimal Route Finding Based on Distance(Fuel optimisation) Weather Factors**
 
 Maps
+
 Optimal Path - shortest path
 
 Optimal Waypoint Path - shortest path using waypoints
