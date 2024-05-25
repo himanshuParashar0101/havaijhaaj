@@ -36,14 +36,23 @@ Integrate real-time health metrics tracking from flight sensor data.
 ![image](https://github.com/himanshuParashar0101/havaijhaaj/assets/55035733/d4fb5ba2-cc88-48b1-9115-609dd1561e23)
 
 
+**4. Database:**
+   
+![image](https://github.com/himanshuParashar0101/havaijhaaj/assets/55035733/0581969f-36a7-40e2-bd0a-8a87989c1e4a)
 
 
-
-**Algorithm**
+**Algorithms Used**
 
 1.Haversine Algorithm
 
 2.Dijkstra's Algorithm
+
+
+
+
+
+
+
 
 
 
