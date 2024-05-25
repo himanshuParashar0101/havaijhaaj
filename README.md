@@ -16,10 +16,23 @@ Integrate real-time health metrics tracking from flight sensor data.
 2.Real time weather data from open meteo api
 3.Flight Maintenance Dashbaord with notifcations to track information about flights .
 4.Real time data from flight sensor which include fuel consumption, Pressure, ETG readings.
-5.Information about flight map curent flight and summary of flights over a month.
+5.Information about flight map curent flight and summary of flights over a month. 
+
+We have created three main dashboards for this problem statement-
+1- Optimal Route Finding Based on Weather Factor
+2- Flight Matrix Dashboard
+3- Flight Sustainability Dashboard
 
 
 **I- Optimal Route Finding Based on Weather Factor**
+
+Maps
+Optimal Path - shortest path
+
+Optimal Waypoint Path - shortest path using waypoints
+
+
+Optimal Weather Waypoint Path - Moat optimal path using all weather conditions
 
 **APIs Used:**
 
@@ -52,7 +65,10 @@ Integrate real-time health metrics tracking from flight sensor data.
 
 
 **II. Flight Matrix Dashboard--** 
-Deployed- link-https://himanshuparashar0101.github.io/flight-matrix/index2.html
+Deployed using netflify- link-https://himanshuparashar0101.github.io/flight-matrix/index2.html
+
+**III. Flight Sustainability Dashboard--**
+Deployed using netflify - link - https://aircraftsustainabilityplatform.netlify.app/dashboard
 
 
 
