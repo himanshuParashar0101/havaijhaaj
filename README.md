@@ -26,9 +26,9 @@ We have created three main dashboards for this problem statement-
 
 1- Optimal Route Finding Based on Weather Factor - Code provide in repo
 
-2- Flight Matrix Dashboard -- Deployed 
+2- Flight Matrix Dashboard -- Deployed using netflify- link-https://himanshuparashar0101.github.io/flight-matrix/index2.html
 
-3- Flight Sustainability Dashboard -- Deployed
+3- Flight Sustainability Dashboard -- Deployed using netflify - link - https://aircraftsustainabilityplatform.netlify.app/dashboard
 
 
 **I- Optimal Route Finding Based on Distance(Fuel optimisation) Weather Factors**
