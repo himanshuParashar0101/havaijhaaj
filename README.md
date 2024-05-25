@@ -138,11 +138,14 @@ WeatherChart Data
 
 
 
+
 Tools Used -
 
-Backend -  Java , SpringBoot, JPA, MySQL ,REST APIs
-UI - ReactJS
-Deployment - Netflfiy
+Backend -  Java , SpringBoot, JPA, MySQL ,REST APIs ,Eclipse,XAMPP
+
+UI - ReactJS ,VSCode
+
+Deployment - Netlifiy , git,github
 
 
 
