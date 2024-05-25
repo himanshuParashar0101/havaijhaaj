@@ -24,7 +24,7 @@ We have created three main dashboards for this problem statement-
 3- Flight Sustainability Dashboard
 
 
-**I- Optimal Route Finding Based on Weather Factor**
+**I- Optimal Route Finding Based on Fistance(Fuel optimisation) Weather Factors**
 
 Maps
 Optimal Path - shortest path
