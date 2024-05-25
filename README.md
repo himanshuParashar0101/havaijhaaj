@@ -93,10 +93,17 @@ Optimal Weather Waypoint Path - Moat optimal path using all weather conditions
 
 **II. Flight Matrix Dashboard--** 
 
+![Screenshot 2024-05-25 142707](https://github.com/himanshuParashar0101/havaijhaaj/assets/103347563/3a1d5ddb-e910-440d-aee2-7c6ea088a892)
+
+![Screenshot 2024-05-25 142723](https://github.com/himanshuParashar0101/havaijhaaj/assets/103347563/bb1f9516-c103-42e8-9097-c9f5d29a28df)
+
 
 
 **III. Flight Sustainability Dashboard--**
 
+![Screenshot 2024-05-25 012917](https://github.com/himanshuParashar0101/havaijhaaj/assets/103347563/44a2fad4-1ff0-4781-9262-9596df7cf894)
+
+![Screenshot 2024-05-25 012944](https://github.com/himanshuParashar0101/havaijhaaj/assets/103347563/6acc3f4f-56b4-451a-be98-201cda800305)
 
 
 
