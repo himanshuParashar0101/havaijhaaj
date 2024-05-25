@@ -93,11 +93,11 @@ Optimal Weather Waypoint Path - Moat optimal path using all weather conditions
 
 **II. Flight Matrix Dashboard--** 
 
-Deployed using netflify- link-https://himanshuparashar0101.github.io/flight-matrix/index2.html
+
 
 **III. Flight Sustainability Dashboard--**
 
-Deployed using netflify - link - https://aircraftsustainabilityplatform.netlify.app/dashboard
+
 
 
 
