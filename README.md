@@ -23,9 +23,12 @@ Integrate real-time health metrics tracking from flight sensor data.
 5. Information about flight map curent flight and summary of flights over a month. 
 
 We have created three main dashboards for this problem statement-
-1- Optimal Route Finding Based on Weather Factor
-2- Flight Matrix Dashboard
-3- Flight Sustainability Dashboard
+
+1- Optimal Route Finding Based on Weather Factor - Code provide in repo
+
+2- Flight Matrix Dashboard -- Deployed 
+
+3- Flight Sustainability Dashboard -- Deployed
 
 
 **I- Optimal Route Finding Based on Distance(Fuel optimisation) Weather Factors**
