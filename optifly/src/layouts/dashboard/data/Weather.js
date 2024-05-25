@@ -12,10 +12,10 @@ const WeatherChart = () => {
     useEffect(() => {
         const fetchData = async () => {
             const params = {
-                latitude: 52.52,
-                longitude: 13.41,
-                start_date: "2024-05-04",
-                end_date: "2024-05-18",
+                latitude: 77.59,
+                longitude: 12.97,
+                start_date: "2024-05-15",
+                end_date: "2024-05-23",
                 hourly: "temperature_2m"
             };
             const url = "https://archive-api.open-meteo.com/v1/archive";

@@ -36,7 +36,6 @@ Coded by www.creative-tim.com
 // Argon Dashboard 2 MUI layouts
 import Dashboard from "layouts/dashboard";
 import Billing from "layouts/optimal-way";
-import RTL from "layouts/rtl";
 import Profile from "layouts/waypoint-optimal";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
@@ -45,6 +44,7 @@ import SignUp from "layouts/authentication/sign-up";
 import ArgonBox from "components/ArgonBox";
 import Tables from "layouts/weather optimal";
 import RedirectToDashboard from "layouts/rtl/RedirectToDashboard";
+import RedirectToFMD from "layouts/rtl/Redirecttofmd";
  
 
 const routes = [
@@ -69,7 +69,7 @@ const routes = [
     name: "Waypoint Optimal Route",
     key: "profile",
     route: "/waypoint-optimal-route",
-    icon: <ArgonBox component="i" color="dark" fontSize="14px" className="ni ni-single-02" />,
+    icon: <ArgonBox component="i" color="dark" fontSize="14px" className="ni ni-support-16" />,
     component: <Profile />,
   },
   {
@@ -94,9 +94,9 @@ const routes = [
     type: "route",
     name: "FMD",
     key: "rtl",
-    route: "/maintainence",
-    icon: <ArgonBox component="i" color="error" fontSize="14px" className="ni ni-world-2" />,
-    component: <RedirectToDashboard />,
+    route: "/fmd",
+    icon: <ArgonBox component="i" color="error" fontSize="14px" className="ni ni-chart-pie-35" />,
+    component: <RedirectToFMD />,
   },
   { type: "title", title: "Account Pages", key: "account-pages" },
   {

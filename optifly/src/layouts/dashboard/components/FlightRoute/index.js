@@ -1,5 +1,5 @@
 // FlightRoute.js
-import React, { useContext } from "react";
+import React, { useState, useContext } from "react";
 
 import ArgonBox from "components/ArgonBox";
 import ArgonTypography from "components/ArgonTypography";
@@ -10,8 +10,15 @@ import FlightRouteContext from "FlightRouteContext";
 function FlightRoute() {
   const { dep, setDep, dis, setDis } = useContext(FlightRouteContext);
 
+
   const handleSubmit = () => {
-    console.log("Submitting: ", { dep, dis });
+    if (dep === dis) {
+      alert("Source and destination can't be the same");
+      handleClear();
+    } else {
+      setError("");
+      console.log("Submitting: ", { dep, dis });
+    }
   };
 
   const handleClear = () => {
