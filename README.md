@@ -33,6 +33,11 @@ We have created three main dashboards for this problem statement-
 
 **I- Optimal Route Finding Based on Distance(Fuel optimisation) Weather Factors**
 
+SignUp Page
+
+![Screenshot 2024-05-25 150516](https://github.com/himanshuParashar0101/havaijhaaj/assets/103347563/54094576-142d-4112-838f-a78332a13ea6)
+
+
 Maps
 
 Optimal Path - shortest path
