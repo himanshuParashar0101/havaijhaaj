@@ -21,11 +21,22 @@ Integrate real-time health metrics tracking from flight sensor data.
 
 **APIs Used:**
 
-1./airbus6/calculateWeatherOptimumRoute
+1.Realtime  Weather API
 
-2./airbus6/calculateOptimumRoute
+ ![image](https://github.com/himanshuParashar0101/havaijhaaj/assets/55035733/eb79b304-845c-477f-a050-5851d218ce01)
 
-3.api.open-meteo.com/v1/forecast?latitude=15.3803684&longitude=73.8165411&current=temperature_2m,relative_humidity_2m,is_day,precipitation,rain,snowfall,weather_code,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=visibility&timezone=auto&forecast_days=1
+
+2./airbus6/calculateWeatherOptimumRoute
+
+![image](https://github.com/himanshuParashar0101/havaijhaaj/assets/55035733/3733e957-d03b-4ec5-a161-15e32a4a7ad8)
+
+
+3./airbus6/calculateOptimumRoute
+
+![image](https://github.com/himanshuParashar0101/havaijhaaj/assets/55035733/d4fb5ba2-cc88-48b1-9115-609dd1561e23)
+
+
+
 
 
 **Algorithm**
