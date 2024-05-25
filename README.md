@@ -46,7 +46,7 @@ Run SpringBoot Server --
 
 Run Frontent React -
 
-1. git clone optify
+1. git clone havaijhaaj
 2. cd  optifly
 3 npm install
 4 npm start
