@@ -35,11 +35,20 @@ We have created three main dashboards for this problem statement-
 
 Run Backend Steps:
 
-Start SpringBoot Server --
-1. git clone the repo 
+Run SpringBoot Server --
+1. git clone Project folder 
 2. Download ecilpse and import as existing maven project
-3. run as java application in main file
-5. Test apis using postman
+3. Import the sql file in MYSQL using XAMPP
+4. Run as java application in main springBoot file.
+5. Test apis using postman.
+
+Run Frontent React -
+
+1. git clone optify
+2. cd  optifly
+3 npm install
+4 npm start
+
 
 SignUp Page
 
