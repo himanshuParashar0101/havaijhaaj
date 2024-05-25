@@ -50,10 +50,15 @@ Optimal Waypoint Path - shortest path using waypoints
 ![WayPoint](https://github.com/himanshuParashar0101/havaijhaaj/assets/103347563/33ea8358-71bc-4ee7-aff4-749061a05569)
 
 
-
 Optimal Weather Waypoint Path - Moat optimal path using all weather conditions
 
 ![Weather waypoint](https://github.com/himanshuParashar0101/havaijhaaj/assets/103347563/3c6a3249-4e52-48ec-b26c-ead580b6f174)
+
+
+WeatherChart Data
+
+![Screenshot 2024-05-25 150940](https://github.com/himanshuParashar0101/havaijhaaj/assets/103347563/032d45a9-4d4d-4e77-9ee3-4551a41b7179)
+
 
 
 **APIs Used:**
