@@ -2,6 +2,8 @@
 
 **TEAM - CREATIVE MINDS**
 
+**Members - Himanshu Parashar , Bryan Devadatha, Suyash Tiwari, Alok Kushwaha ,Chirag Lalwani**
+
 **GOAL**
 
 Design, develop, and implement a robust software solution for identifying optimal flight paths.
