@@ -76,16 +76,16 @@ Optimal Weather Waypoint Path - Moat optimal path using all weather conditions
 
 2.Dijkstra's Algorithm
 
-Weather /External Factors-
+**Weather /External Factors-**
 
-1.Weather code
-2.Precipitation ( Turbulence)
-3.Wind Speed ( Stability)
-4.Relative Humidity ( Static electricity)
-5.Temperature ( Engine Efficiency)
-6.Rain
-7.Snowfall
-8.Cloud Cover ( Visibility )
+1. Weather code
+2. Precipitation ( Turbulence)
+3. Wind Speed ( Stability)
+4. Relative Humidity ( Static electricity)
+5. Temperature ( Engine Efficiency)
+6. Rain
+7. Snowfall
+8. Cloud Cover ( Visibility )
 
 
 **II. Flight Matrix Dashboard--** 
