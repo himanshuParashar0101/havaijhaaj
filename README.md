@@ -22,7 +22,9 @@ Integrate real-time health metrics tracking from flight sensor data.
 **APIs Used:**
 
 1./airbus6/calculateWeatherOptimumRoute
+
 2./airbus6/calculateOptimumRoute
+
 3.api.open-meteo.com/v1/forecast?latitude=15.3803684&longitude=73.8165411&current=temperature_2m,relative_humidity_2m,is_day,precipitation,rain,snowfall,weather_code,cloud_cover,wind_speed_10m,wind_direction_10m&hourly=visibility&timezone=auto&forecast_days=1
 
 
