@@ -50,6 +50,8 @@ Run Frontent React -
 4 npm start
 
 
+
+
 SignUp Page
 
 ![Screenshot 2024-05-25 150516](https://github.com/himanshuParashar0101/havaijhaaj/assets/103347563/54094576-142d-4112-838f-a78332a13ea6)
