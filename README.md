@@ -8,7 +8,7 @@
 
 Design, develop, and implement a robust software solution for identifying optimal flight paths.
 Provide real-time risk assessment and alternative route suggestions.
-Integrate real-time health metrics tracking from flight sensor data.
+Integrate real-time health metrics tracking from flight sensor datas.
 
 
 **Features**
